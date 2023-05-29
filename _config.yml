@@ -1,4 +1,19 @@
-title: perhaps.. developer 
+# Site Settings
+locale                   : "ko-KR"    # 블로그의 주요 언어입니다. 한국어로 보려고 ko-KR로 설정했습니다.
+title                    : "perhaps.. developer" # 사이트 탭에서 보이는 이름입니다.
+title_separator          : "-"
+subtitle                 : "version 1.0"              # 화면 title 하단에 있는 소제목입니다.
+name                     : "당현아(Dang Hyeona)"      # 화면 하단 영역의 이름입니다.
+url                      : "https://anthony-yoo.github.io/" # 현재의 블로그 url 입니다.
+baseurl                  : "https://anthony-yoo.github.io/" # 폴백(예기치 못한 오류)일 때 연결되는 url입니다.
+repository               : "https://github.com/Anthony-Yoo/Anthony-Yoo.github.io" # Github Repo url입니다.
+teaser                   : # 폴백일 때 보일 이미지입니다. "assets/images/"로 연결됩니다.
+logo                     : # 화면에 보여지는 logo 이미지입니다. "assets/images"로 세팅합니다.
+masthead_title           : "My little develop process"     # 화면 title 입니다.
+sass:
+  sass_dir: _sass
+minimal_mistakes_skin    : "default"
+
 author: GitHub User
 email: nayoosw@nate.com
 description: > # this means to ignore newlines until "show_exerpts:"
@@ -9,8 +24,8 @@ show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
-sass:
-  sass_dir: _sass
+
+
 plainwhite:
   name: Anthony Yoo
   tagline: Developer. Sales Manager.
